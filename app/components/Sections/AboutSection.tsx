@@ -15,16 +15,6 @@ function AboutSection(): React.ReactElement {
         visible: { opacity: 1, y: 0 }
     };
 
-    const fadeInLeft = {
-        hidden: { opacity: 0, x: -50 },
-        visible: { opacity: 1, x: 0 }
-    };
-
-    const fadeInRight = {
-        hidden: { opacity: 0, x: 50 },
-        visible: { opacity: 1, x: 0 }
-    };
-
     return (
         <div id='about' className='min-h-screen flex flex-col justify-center items-center p-3 py-20'>
             {/* Title Animation */}
@@ -38,72 +28,45 @@ function AboutSection(): React.ReactElement {
                 About Me
             </motion.h2>
 
-<<<<<<< HEAD
-                {/* Image Content Start */}
-                <div ref={imgRef} className='opacity-0 transform translate-y-10 transition-all duration-700 flex justify-center lg:w-1/2 p-4 mb-8 lg:mb-0' id='about-img'>
-                    <img src={photo} alt='deepak' className=' w-64 h-70 lg:w-80 lg:h-90 rounded-md object-cover border-4 border-teal-500' /> 
-                </div>
-                {/* Image Content End */}
-
-                {/* Content Start */}
-                <div ref={contentRef} className='opacity-0 transform translate-y-10 transition-all duration-700 flex flex-col items-center lg:items-start lg:w-1/2 text-center lg:text-left p-4 lg:flex lg:flex-col' id='about-content'>
-                    <p className=' text-gray-700 dark:text-gray-400 text-3xl font-bold mb-[1.5rem]'>
-                        Hii..👋 I&#39;m <span className='text-3xl text-teal-500'>{name}</span>
-=======
             <div className='max-w-7xl w-full mx-auto flex flex-col lg:flex-row items-center'>
-                {/* Image Animation */}
+                {/* Image Content */}
                 <motion.div
                     initial="hidden"
                     animate="visible"
-                    variants={fadeInLeft}
-                    transition={{ duration: 0.7, ease: 'easeOut' }}
+                    variants={fadeInUp}
+                    transition={{ duration: 0.7, ease: 'easeOut', delay: 0.3 }}
                     className='flex justify-center lg:w-1/2 p-4 mb-8 lg:mb-0'
                 >
                     <img
-                        src={foto}
-                        alt='Ammar'
-                        className='w-64 h-64 lg:w-80 lg:h-96 rounded-md object-cover border-4 border-teal-500'
+                        src={photo}
+                        alt={`${name}'s photo`}
+                        className='w-64 h-55 lg:w-80 lg:h-96 rounded-md object-cover border-4 border-teal-500'
                     />
                 </motion.div>
 
-                {/* Content Animation */}
+                {/* Content */}
                 <motion.div
                     initial="hidden"
                     animate="visible"
-                    variants={fadeInRight}
-                    transition={{ duration: 0.7, ease: 'easeOut', delay: 0.3 }}
-                    className='flex flex-col items-center lg:items-start lg:w-1/2 text-center lg:text-left p-4 lg:flex lg:flex-col'
+                    variants={fadeInUp}
+                    transition={{ duration: 0.7, ease: 'easeOut', delay: 0.6 }}
+                    className='flex flex-col items-center lg:items-start lg:w-1/2 text-center lg:text-left p-4'
                 >
                     <p className='text-gray-700 dark:text-gray-400 text-3xl font-bold mb-[1.5rem]'>
-                        Hii..👋 Im <span className='text-3xl text-teal-500'>{nama}</span>
->>>>>>> 71a8f4a08b431c59e833ebe2111ca66341d87215
+                    Hi..👋 I&#39;m <span className='text-3xl text-teal-500'>{name}</span>
                     </p>
                     <p className='text-gray-700 dark:text-gray-400 text-xl font-bold mb-[4rem] italic'>
-                        An <span className='text-2xl text-teal-500'>{role} 🧑🏻‍💻</span> and live in <span className='text-2xl text-teal-500'>{country} 🌏</span>.
+                        A <span className='text-2xl text-teal-500'>{role} 🧑🏻‍💻</span> living in <span className='text-2xl text-teal-500'>{country} 🌏</span>.
                     </p>
-<<<<<<< HEAD
-                    <p className=' text-md lg:text-lg mb-6'>
-                        {description}
-=======
                     <p className='text-md lg:text-lg mb-6'>
-                        {deskripsi}
->>>>>>> 71a8f4a08b431c59e833ebe2111ca66341d87215
+                        {description}
                     </p>
                     <Separator className="mb-5" />
                 </motion.div>
             </div>
 
-            {/* Education Animation */}
-            <motion.p
-                initial="hidden"
-                animate="visible"
-                variants={fadeInUp}
-                transition={{ duration: 0.7, ease: 'easeOut', delay: 0.5 }}
-                className="text-md lg:text-lg mb-6 text-gray-700 dark:text-gray-400 mt-5"
-            >
-                Here are some of my educations background
-            </motion.p>
-
+            {/* Added a title for education */}
+            <h2 className="text-3xl font-bold text-center mb-6 fade-in-element">Educations</h2> 
             <motion.div
                 initial="hidden"
                 animate="visible"
@@ -111,19 +74,20 @@ function AboutSection(): React.ReactElement {
                 transition={{ duration: 0.7, ease: 'easeOut', delay: 0.7 }}
                 className="flex flex-col md:flex-row gap-4 items-center justify-center"
             >
-                {education.map((edu, index) => (
+                {education.map((edu) => (
                     <Card
-                        key={index}
+                        key={edu.name} // Use a unique identifier if available
                         className="flex flex-col items-center p-4 mb-5 hover:shadow-teal-500 shadow-md transition-all ease-in-out duration-300"
                     >
+                        <img src={edu.logo} alt={edu.name} className="w-24 h-20 mb-4" />
                         <CardHeader className="text-lg font-semibold mb-2 text-teal-500">
-                            {edu.nama}
+                            {edu.name}
                         </CardHeader>
                         <CardDescription className="text-sm text-gray-700 dark:text-gray-400">
-                            {edu.jurusan}
+                            {edu.major}
                         </CardDescription>
                         <CardDescription className="text-sm text-gray-700 dark:text-gray-400">
-                            {edu.tahun}
+                            {edu.year}
                         </CardDescription>
                     </Card>
                 ))}

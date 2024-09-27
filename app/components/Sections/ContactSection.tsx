@@ -31,7 +31,7 @@ function ContactSection() {
                 {/* Contact Content End */}
 
                 {/* Form Contact */}
-                <div className="mt-12">
+                {/* <div className="mt-12">
                     <h3 className="text-2xl font-semibold mb-7">
                         Or You Can Contact Me Through The Form Below 📝
                     </h3>
@@ -67,7 +67,7 @@ function ContactSection() {
                             Send Message (Under Development)
                         </button>
                     </form>
-                </div>
+                </div> */}
 
             </div>
         </div>

@@ -21,11 +21,7 @@ export default function Navbar() {
     }
 
     const handleScroll = () => {
-<<<<<<< HEAD
       const sections = ['home', 'about', 'educations', 'skills', 'experiences', 'portfolio', 'contact'];
-=======
-      const sections = ['home', 'about', 'portfolio', 'contact'];
->>>>>>> 71a8f4a08b431c59e833ebe2111ca66341d87215
       let currentSection = '';
 
       sections.forEach((sectionId) => {
@@ -75,17 +71,8 @@ export default function Navbar() {
       <header className="fixed w-full z-50">
         <nav className="bg-white shadow-lg py-6 dark:bg-gray-900">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-<<<<<<< HEAD
             <a href="/#home" className="flex items-center" onClick={() => handleLinkClick('Home')}>
               <span className="self-center text-4xl font-semibold whitespace-nowrap text-teal-500">Deepak Suyal</span>
-=======
-            <a
-              href="/#home"
-              className="flex items-center"
-              onClick={() => handleLinkClick('Home')}
-            >
-              <span className="self-center text-4xl font-semibold whitespace-nowrap text-teal-500">Ammar</span>
->>>>>>> 71a8f4a08b431c59e833ebe2111ca66341d87215
             </a>
             <div className="flex items-center lg:order-2">
               <ModeToggle />
@@ -105,11 +92,7 @@ export default function Navbar() {
               id="mobile-menu-2"
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0 text-lg w-full">
-<<<<<<< HEAD
                 {['Home', 'About', 'Educations', 'Skills', 'Experiences', 'Portfolio', 'Contact'].map((link) => (
-=======
-                {['Home', 'About', 'Portfolio', 'Contact'].map((link) => (
->>>>>>> 71a8f4a08b431c59e833ebe2111ca66341d87215
                   <li key={link} className="w-full lg:w-auto">
                     <a
                       href={`/#${link.toLowerCase()}`}

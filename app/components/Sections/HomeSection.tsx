@@ -13,7 +13,6 @@ function HomeSection(): React.JSX.Element {
             <div className="max-w-7xl w-full mx-auto flex flex-col-reverse lg:flex-row items-center">
                 
                 {/* Content Start */}
-<<<<<<< HEAD
                 <div id="content" className="transform translate-y-10 transition-all duration-700 flex flex-col items-center lg:items-start lg:w-1/2 text-center lg:text-left p-4">
                     <p className="text-gray-700 dark:text-gray-400 text-lg">Hi..👋</p>
                     <h1 className="text-4xl font-bold mb-4">I&#39;m <span className="text-4xl text-teal-500">{name}</span></h1>
@@ -23,14 +22,6 @@ function HomeSection(): React.JSX.Element {
                     </div> 
                      <p className="text-xl mb-6 text-gray-700 dark:text-gray-400">{description}</p>
                      
-=======
-                <div className="transform translate-y-10 transition-all duration-700 flex flex-col items-center lg:items-start lg:w-1/2 text-center lg:text-left p-4">
-                    <p className="text-gray-700 dark:text-gray-400 text-lg">Hii..👋</p>
-                    <h2 className="text-4xl font-bold mb-4">Im <span className="text-4xl text-teal-500">{nama}</span></h2>
-                    <div className="text-lg md:text-2xl lg:text-3xl font-semibold mb-4 text-teal-500 font-mono">
-                        {role}  🧑🏻‍💻
-                    </div>
->>>>>>> 71a8f4a08b431c59e833ebe2111ca66341d87215
                     <a
                         href={CV}
                         target="_blank"
