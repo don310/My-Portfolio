@@ -12,7 +12,7 @@ export const experiences: Experiences[] = [
     {
         name: "Awaaz of Devbhoomi Charitable Trust",
         position: "Full Stack Web Developer",
-        logo: ["/assets/skills/php.png", "/assets/skills/laravel.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif", "/assets/skills/xampp.jpg"],
+        logo: ["/assets/skills/php.png", "/assets/skills/laravel.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif"],
         contract: "Freelancer",
         description: "A community-driven website for the Awaaz of Devbhoomi Charitable Trust, aimed at promoting social welfare, cultural heritage, and charitable initiatives, while providing resources and support for local communities.",
         year: "December 2024 - Present"
