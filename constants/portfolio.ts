@@ -45,7 +45,7 @@ export const fullPortfolio: Portfolio[] = [
     {
         name: "Intra Task Manager App",
         image: "/assets/portfolios/Intra-Task.png",
-        description: "AA Task Manager application built using Next.js, designed to help users efficiently manage their daily tasks.",
+        description: "A Task Manager application built using Next.js, designed to help users efficiently manage their daily tasks.",
         technologies: ["/assets/skills/react.png", "/assets/skills/nextjs.png", "/assets/skills/tailwind.png", "/assets/skills/prisma.jfif", "/assets/skills/MongoDB.jpg"],
         link: "https://intra-task-manager-dkle.vercel.app/",
         source: "https://github.com/don310/Intra_Task_Manager"
