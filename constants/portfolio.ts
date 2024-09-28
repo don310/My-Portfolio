@@ -39,7 +39,7 @@ export const fullPortfolio: Portfolio[] = [
         name: "E-Learning(IntraCobroid) Platform",
         image: "/assets/portfolios/FrontPage.png",
         description: "This project is a comprehensive e-learning platform built using PHP and MySQL, hosted on a local server through XAMPP. The platform allows users to register, log in, and access educational content across various courses.",
-        technologies: ["/assets/skills/css.png", "/assets/skills/js.png", "/assets/skills/php.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif", "/assets/skills/xampp.jpg"],
+        technologies: ["/assets/skills/css.png", "/assets/skills/js.png", "/assets/skills/php.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif"],
         source: "https://github.com/don310/E-Learning"
     },
     {
