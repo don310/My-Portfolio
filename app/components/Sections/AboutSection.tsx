@@ -40,7 +40,7 @@ function AboutSection(): React.ReactElement {
                     <img
                         src={photo}
                         alt={`${name}'s photo`}
-                        className='w-64 h-55 lg:w-80 lg:h-96 rounded-md object-cover border-4 border-teal-500'
+                        className='w-64 h-50 lg:w-80 lg:h-75 rounded-md object-cover border-4 border-teal-500'
                     />
                 </motion.div>
 
@@ -64,9 +64,27 @@ function AboutSection(): React.ReactElement {
                     <Separator className="mb-5" />
                 </motion.div>
             </div>
+            <motion.h2
+                initial="hidden"
+                animate="visible"
+                variants={fadeInUp}
+                transition={{ duration: 0.7, ease: 'easeOut' }}
+                className='text-5xl font-bold mb-[5rem] mt-[5rem]'
+            >
+               Educations
+            </motion.h2>
+    {/* Education Animation */}
+    <motion.p
+                initial="hidden"
+                animate="visible"
+                variants={fadeInUp}
+                transition={{ duration: 0.7, ease: 'easeOut', delay: 0.5 }}
+                className="text-md lg:text-lg mb-6 text-gray-700 dark:text-gray-400 mt-5"
+            >
+                Here are some of my educations background
+            </motion.p>
 
-            {/* Added a title for education */}
-            <h2 className="text-3xl font-bold text-center mb-6 fade-in-element">Educations</h2> 
+        
             <motion.div
                 initial="hidden"
                 animate="visible"
@@ -74,6 +92,7 @@ function AboutSection(): React.ReactElement {
                 transition={{ duration: 0.7, ease: 'easeOut', delay: 0.7 }}
                 className="flex flex-col md:flex-row gap-4 items-center justify-center"
             >
+                
                 {education.map((edu) => (
                     <Card
                         key={edu.name} // Use a unique identifier if available

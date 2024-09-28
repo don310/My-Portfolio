@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import { experiences } from '@/constants/experiences';
+import { motion } from 'framer-motion';
 
 function ExperienceSectionComponent() {
   const [currentIndex, setCurrentIndex] = useState(0); // State to track current slide index

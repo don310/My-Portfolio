@@ -1,4 +1,4 @@
-// rootlayout.tsx (tanpa "use client")
+import { Metadata } from "next"; // Add this line
 import { Inter } from "next/font/google";
 import "./globals.css";
 import RootLayoutClient from './RootLayoutClient';
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Deepak Suyal",
   description: "Deepak Suyal is a Full Stack Web Developer from India showcasing his portfolio and projects on this personal website.",
   keywords: ["Deepak Suyal", "Indian web developer", "full stack developer", "Laravel", "Next.js", "TailwindCSS", "Bootstrap", "Figma", "web developer portfolio"],
-  authors: [{ name: "Deepak Suyal'", url: "https://deepaksuyal.vercel.app" }],
+  authors: [{ name: "Deepak Suyal", url: "https://deepaksuyal.vercel.app" }],
   viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
   openGraph: {
@@ -46,4 +46,3 @@ export default function RootLayout({
     </html>
   );
 }
-

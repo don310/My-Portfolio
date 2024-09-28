@@ -19,13 +19,15 @@ function EducationSection(): React.ReactElement {
         <div id="educations" className="py-10"> {/* Added padding for better spacing */}
             <div className="container mx-auto">
                 {/* Education Content Start */}
+                    {/* Added a title for education */}
+            {/* <h2 className="text-3xl font-bold text-center mb-6 fade-in-element">Educations</h2>  */}
                 <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
                     {education.map((edu, index) => (
                         <Card key={index} className="flex flex-col items-center p-4 mb-5 hover:shadow-teal-500 shadow-md transition-all ease-in-out duration-300 fade-in-element">
-                            <img src={edu.logo} alt={edu.name} className="w-24 h-20 mb-4" />
+                            {/* <img src={edu.logo} alt={edu.name} className="w-24 h-20 mb-4" />
                             <CardHeader className="text-lg font-semibold mb-2 text-teal-500">{edu.name}</CardHeader>
                             <CardDescription className="text-sm text-gray-700 dark:text-gray-400">{edu.major}</CardDescription>
-                            <CardDescription className="text-sm text-gray-700 dark:text-gray-400">{edu.year}</CardDescription>
+                            <CardDescription className="text-sm text-gray-700 dark:text-gray-400">{edu.year}</CardDescription> */}
                         </Card>
                     ))}
                 </div>
