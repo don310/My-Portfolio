@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Deepak Suyal",
     description: "Deepak Suyal is a Full Stack Web Developer from India showcasing his portfolio and projects on this personal website.",
-    images: [{ url: "/assets/metadata.png" }],
+    images: [{ url: "/assets/meta.png" }],
     url: "https://deepaksuyal.vercel.app",
     type: "website",
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Deepak Suyal",
     description: "Deepak Suyal is a Full Stack Web Developer from Indonesia showcasing his portfolio and projects on this personal website.",
-    images: ["/assets/metadata.png"],
+    images: ["/assets/meta.png"],
   },
   icons: {
     icon: "/d.png",
