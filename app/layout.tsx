@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   title: "Deepak Suyal",
   description: "Deepak Suyal is a Full Stack Web Developer from India showcasing his portfolio and projects on this personal website.",
   keywords: ["Deepak Suyal", "Indian web developer", "full stack developer", "Laravel", "Next.js", "TailwindCSS", "Bootstrap", "Figma", "web developer portfolio"],
-  authors: [{ name: "Deepak Suyal", url: "https://deepaksuyal.vercel.app" }],
+  authors: [{ name: "Deepak Suyal", url: "https://my-portfolio-seven-jet-27.vercel.app/" }],
   viewport: "width=device-width, initial-scale=1.0",
   robots: "index, follow",
   openGraph: {
     title: "Deepak Suyal",
     description: "Deepak Suyal is a Full Stack Web Developer from India showcasing his portfolio and projects on this personal website.",
     images: [{ url: "/assets/meta.png" }],
-    url: "https://deepaksuyal.vercel.app",
+    url: "https://my-portfolio-seven-jet-27.vercel.app/",
     type: "website",
   },
   twitter: {
