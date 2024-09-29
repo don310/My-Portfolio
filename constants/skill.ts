@@ -80,7 +80,7 @@ export const techStack: Skill[] = [
         description: "MongoDB is a popular open-source NoSQL database."
     }, 
     {
-        image: "assets/skills/Prisma.jfif",
+        image: "assets/skills/prisma.jfif",
         name: "Prisma",
         level: "Beginner",
         description: "Prisma is an open-source next-generation ORM (Object-Relational Mapping) tool."

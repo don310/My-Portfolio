@@ -13,7 +13,7 @@ export const portfolio: Portfolio[] = [
         name: "E-Learning(IntraCobroid) Platform",
         image: "/assets/portfolios/FrontPage.png",
         description: "This project is a comprehensive e-learning platform built using PHP and MySQL, hosted on a local server through XAMPP. The platform allows users to register, log in, and access educational content across various courses.",
-        technologies: ["/assets/skills/css.png", "/assets/skills/js.png", "/assets/skills/php.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif", "/assets/skills/mysql.jfif", "/assets/skills/xampp.jpg"],
+        technologies: ["/assets/skills/css.png", "/assets/skills/js.png", "/assets/skills/php.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif", "/assets/skills/mysql.jfif"],
         source: "https://github.com/don310/E-Learning"
     },
     {
@@ -39,13 +39,13 @@ export const fullPortfolio: Portfolio[] = [
         name: "E-Learning(IntraCobroid) Platform",
         image: "/assets/portfolios/FrontPage.png",
         description: "This project is a comprehensive e-learning platform built using PHP and MySQL, hosted on a local server through XAMPP. The platform allows users to register, log in, and access educational content across various courses.",
-        technologies: ["/assets/skills/css.png", "/assets/skills/js.png", "/assets/skills/php.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif", "/assets/skills/xampp.jpg"],
+        technologies: ["/assets/skills/css.png", "/assets/skills/js.png", "/assets/skills/php.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif"],
         source: "https://github.com/don310/E-Learning"
     },
     {
         name: "Intra Task Manager App",
         image: "/assets/portfolios/Intra-Task.png",
-        description: "AA Task Manager application built using Next.js, designed to help users efficiently manage their daily tasks.",
+        description: "A Task Manager application built using Next.js, designed to help users efficiently manage their daily tasks.",
         technologies: ["/assets/skills/react.png", "/assets/skills/nextjs.png", "/assets/skills/tailwind.png", "/assets/skills/prisma.jfif", "/assets/skills/MongoDB.jpg"],
         link: "https://intra-task-manager-dkle.vercel.app/",
         source: "https://github.com/don310/Intra_Task_Manager"

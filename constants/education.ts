@@ -3,13 +3,13 @@ import { Education } from "@/types/education";
 export const education: Education[] = [
     {
         name: "HGS SVM IC Kusumkhera Haldwani Nainital",
-        major: "General Studies",
+        major: "High School in General Studies",
         year: "2020",
         logo: "/assets/school.png"
     },
     {
         name: "HGS SVM IC Kusumkhera Haldwani Nainital",
-        major: "Math and Science",
+        major: "Intermediate in Math and Science",
         year: "2022",
         logo: "/assets/school.png"
     },

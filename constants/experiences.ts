@@ -12,7 +12,7 @@ export const experiences: Experiences[] = [
     {
         name: "Awaaz of Devbhoomi Charitable Trust",
         position: "Full Stack Web Developer",
-        logo: ["/assets/skills/php.png", "/assets/skills/laravel.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif", "/assets/skills/xampp.jpg"],
+        logo: ["/assets/skills/php.png", "/assets/skills/laravel.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif"],
         contract: "Freelancer",
         description: "A community-driven website for the Awaaz of Devbhoomi Charitable Trust, aimed at promoting social welfare, cultural heritage, and charitable initiatives, while providing resources and support for local communities.",
         year: "December 2024 - Present"
@@ -20,7 +20,7 @@ export const experiences: Experiences[] = [
     {
         name: "Government Polytechnic Dehradun",
         position: "Web Developer",
-        logo: ["/assets/skills/css.png", "/assets/skills/js.png", "/assets/skills/php.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif", "/assets/skills/xampp.jpg"],
+        logo: ["/assets/skills/css.png", "/assets/skills/js.png", "/assets/skills/php.png", "/assets/skills/tailwind.png", "/assets/skills/bootstrap.png",  "/assets/skills/jquery.jfif"],
         contract: "Internship",
         year: "September 2024 - Novemeber 2024",
         description: "An intuitive platform designed to connect alumni and institutions, facilitating networking, event management, and communication, while also providing a robust database for alumni information and achievements."
