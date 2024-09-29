@@ -9,7 +9,7 @@ export const education: Education[] = [
     },
     {
         name: "HGS SVM IC Kusumkhera Haldwani Nainital",
-        major: "intermediate in Math and Science",
+        major: "Intermediate in Math and Science",
         year: "2022",
         logo: "/assets/school.png"
     },
