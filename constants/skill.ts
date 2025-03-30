@@ -2,6 +2,42 @@ import { Skill } from "@/types/skill";
 
 export const techStack: Skill[] = [
     {
+        image: "assets/skills/python.png",
+        name: "Python",
+        level: "Intermediate",
+        description: "Python is widely used in web development, data analysis, artificial intelligence, machine learning, automation, and more."
+    },
+    {
+        image: "assets/skills/NumPy.png",
+        name: "Numpy",
+        level: "Beginner",
+        description: "Numpy is a library for the Python programming language that supports large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays."
+    },
+    {
+        image: "assets/skills/Pandas.png",
+        name: "Pandas",
+        level: "Beginner",
+        description: "Pandas is a fast, powerful, flexible, and easy-to-use open-source data analysis and data manipulation library for Python."
+    },
+    {
+        image: "assets/skills/matplotlib.jpg",
+        name: "Matplotlib",
+        level: "Beginner",
+        description: "Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy."
+    },
+    {
+        image: "assets/skills/c.png",
+        name: "C",
+        level: "Intermediate",
+        description: "C is a general-purpose programming language that is extremely popular, simple, and flexible to use."
+    },
+    {
+        image: "assets/skills/C++.png",
+        name: "C++",
+        level: "Intermediate",
+        description: "C++ is a general-purpose programming language created as an extension of the C programming language."
+    },
+    {
         image: "assets/skills/html.png",
         name: "HTML",
         level: "Intermediate",
@@ -38,12 +74,6 @@ export const techStack: Skill[] = [
         description: "CSS framework used to build web designs."
     },
     {
-        image: "assets/skills/laravel.png",
-        name: "Laravel",
-        level: "Beginner",
-        description: "PHP framework used for web application development."
-    },
-    {
         image: "assets/skills/react.png",
         name: "React",
         level: "Intermediate",
@@ -64,7 +94,7 @@ export const techStack: Skill[] = [
     {
         image: "assets/skills/jquery.jfif",
         name: "JQuery",
-        level: "Intermediate",
+        level: "Beginner",
         description: "jQuery is a fast, small, and feature-rich JavaScript library."
     },
     {
@@ -88,6 +118,18 @@ export const techStack: Skill[] = [
 ];
 
 export const tools: Skill[] = [
+    {
+        image: "assets/skills/Excel.png",
+        name: "Excel",
+        level: "Intermediate",
+        description: "Microsoft Excel is a spreadsheet program included in the Microsoft Office suite of applications."
+    },
+    {
+        image: "assets/skills/Power-BI.webp",
+        name: "Power BI",
+        level: "Beginner",
+        description: "Power BI is a business analytics tool by Microsoft that provides interactive visualizations and business intelligence capabilities."
+    },
     {
         image: "assets/skills/figma.png",
         name: "Figma",
