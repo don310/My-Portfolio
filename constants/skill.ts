@@ -159,6 +159,30 @@ export const tools: Skill[] = [
         name: 'XAMPP',
         level: 'Intermediate',
         description: 'XAMPP is a free and open-source software stack designed to simplify local web server development.'
+    },
+        {
+        image: "assets/skills/n8n.png",
+        name: "n8n",
+        level: "Beginner",
+        description: "Workflow automation platform used to connect applications, integrate APIs, and build automated workflows and AI-powered agents."
+    },
+    {
+        image: "assets/skills/cpt.png",
+        name: "Cisco Packet Tracer",
+        level: "Beginner",
+        description: "Network simulation tool used to design, configure, and troubleshoot virtual networks, routers, switches, and other networking devices."
+    },
+    {
+        image: "assets/skills/AWS.png",
+        name: "AWS",
+        level: "Beginner",
+        description: "Amazon Web Services is a cloud computing platform that provides services for computing, storage, networking, databases, and application deployment."
+    },
+    {
+        image: "assets/skills/vmware.png",
+        name: "VMware",
+        level: "Beginner",
+        description: "Virtualization platform used to create and manage virtual machines for operating systems, software testing, and IT infrastructure labs."
     }
 ];
 

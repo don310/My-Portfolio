@@ -8,7 +8,7 @@ export const footer: Footer[] = [
     },
     {
         logo: FaLinkedin,
-        link: "https://www.linkedin.com/in/deepak-suyal-/"
+        link: "https://www.linkedin.com/in/deepak-suyal/"
     },
     {   logo: FaGithub,
         link: "https://github.com/don310/"
